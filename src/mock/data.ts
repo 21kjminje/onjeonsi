@@ -10,10 +10,10 @@ export const mockItems: MockItem[] = [
   {
     venue: {
       id: 'jongno-001',
-      name: '±¹¸³Çö´ë¹Ì¼ú°ü ¼­¿ï',
-      aliases: ['MMCA ¼­¿ï', '±¹¸³Çö´ë¹Ì¼ú°ü ¼­¿ï°ü'],
-      gu: 'Á¾·Î±¸',
-      type: '¹Ì¼ú°ü',
+      name: 'êµ­ë¦½í˜„ëŒ€ë¯¸ìˆ ê´€ ì„œìš¸',
+      aliases: ['MMCA ì„œìš¸', 'êµ­ë¦½í˜„ëŒ€ë¯¸ìˆ ê´€ ì„œìš¸ê´€'],
+      gu: 'ì¢…ë¡œêµ¬',
+      type: 'ë¯¸ìˆ ê´€',
       lat: 37.5786,
       lng: 126.9802,
       representative: true,
@@ -29,23 +29,23 @@ export const mockItems: MockItem[] = [
       lastEntry: '20:00',
       visitMinutes: 90,
       docent: [{ days: ['wed', 'sat'], times: ['14:00', '16:00'] }],
-      entry: 'ÇöÀå ¹ß±Ç / ¿Â¶óÀÎ ¿¹¾à',
-      reservation: '¼±ÅÃ (ÁÖ¸» ±ÇÀå)',
+      entry: 'í˜„ì¥ ë°œê¶Œ / ì˜¨ë¼ì¸ ì˜ˆì•½',
+      reservation: 'ì„ íƒ (ì£¼ë§ ê¶Œì¥)',
       source: 'https://www.mmca.go.kr',
       verified: '2026-10-30'
     },
     exhibition: {
       id: 'ex-001',
       venueId: 'jongno-001',
-      title: '¿ÃÇØÀÇ ÀÛ°¡»ó 2026',
+      title: 'ì˜¬í•´ì˜ ì‘ê°€ìƒ 2026',
       start: '2026-09-01',
       end: '2026-11-30',
-      field: '¹Ì¼ú/Çö´ë¹Ì¼ú',
+      field: 'ë¯¸ìˆ /í˜„ëŒ€ë¯¸ìˆ ',
       link: 'https://www.mmca.go.kr'
     },
     judgeResult: {
       result: 'possible',
-      reasons: ['ÀÔÀå ¸¶°¨(20:00) Àü µµÂø', 'Æó°ü Àü °ü¶÷ ½Ã°£ 90ºĞ È®º¸ °¡´É'],
+      reasons: ['ì…ì¥ ë§ˆê°(20:00) ì „ ë„ì°©', 'íê´€ ì „ ê´€ëŒ ì‹œê°„ 90ë¶„ í™•ë³´ ê°€ëŠ¥'],
       entryTime: '15:20',
       endTime: '16:50',
       slackMinutes: 70
@@ -54,10 +54,10 @@ export const mockItems: MockItem[] = [
   {
     venue: {
       id: 'jongno-002',
-      name: '¾Æ¸£ÄÚ¹Ì¼ú°ü',
-      aliases: ['´ëÇĞ·Î ¾Æ¸£ÄÚ'],
-      gu: 'Á¾·Î±¸',
-      type: '¹Ì¼ú°ü',
+      name: 'ì•„ë¥´ì½”ë¯¸ìˆ ê´€',
+      aliases: ['ëŒ€í•™ë¡œ ì•„ë¥´ì½”'],
+      gu: 'ì¢…ë¡œêµ¬',
+      type: 'ë¯¸ìˆ ê´€',
       lat: 37.5817,
       lng: 127.0028,
       representative: true,
@@ -72,32 +72,32 @@ export const mockItems: MockItem[] = [
       closed: { weekday: 'mon' },
       lastEntry: '15:10',
       visitMinutes: 60,
-      entry: 'ÇöÀå ÀÔÀå',
-      reservation: 'ÇÊ¿ä ¾øÀ½',
+      entry: 'í˜„ì¥ ì…ì¥',
+      reservation: 'í•„ìš” ì—†ìŒ',
       source: 'https://www.arko.or.kr',
       verified: '2026-10-30'
     },
     exhibition: {
       id: 'ex-002',
       venueId: 'jongno-002',
-      title: '±â¾ïÀÇ ÁöÃşÀü',
+      title: 'ê¸°ì–µì˜ ì§€ì¸µì „',
       start: '2026-10-01',
       end: '2026-11-15',
-      field: '¼³Ä¡¹Ì¼ú',
+      field: 'ì„¤ì¹˜ë¯¸ìˆ ',
       link: 'https://www.arko.or.kr'
     },
     judgeResult: {
       result: 'impossible',
-      reasons: ['ÀÔÀå ¸¶°¨(15:10) ÀÌÈÄ µµÂø ¿¹Á¤ (µµÂø ¿¹Á¤ ½Ã°¢: 15:20)']
+      reasons: ['ì…ì¥ ë§ˆê°(15:10) ì´í›„ ë„ì°© ì˜ˆì • (ë„ì°© ì˜ˆì • ì‹œê°: 15:20)']
     }
   },
   {
     venue: {
       id: 'junggu-003',
-      name: 'Áß±¸ ½Ã¹Î °¶·¯¸®',
-      aliases: ['À»Áö·Î Àü½Ã°ü'],
-      gu: 'Áß±¸',
-      type: '¹Ì¼ú°ü',
+      name: 'ì¤‘êµ¬ ì‹œë¯¼ ê°¤ëŸ¬ë¦¬',
+      aliases: ['ì„ì§€ë¡œ ì „ì‹œê´€'],
+      gu: 'ì¤‘êµ¬',
+      type: 'ë¯¸ìˆ ê´€',
       lat: 37.5663,
       lng: 126.9979,
       representative: false,
@@ -107,14 +107,14 @@ export const mockItems: MockItem[] = [
     exhibition: {
       id: 'ex-003',
       venueId: 'junggu-003',
-      title: 'µµ½É ¼Ó Ç³°æ »çÁøÀü',
+      title: 'ë„ì‹¬ ì† í’ê²½ ì‚¬ì§„ì „',
       start: '2026-10-20',
       end: '2026-11-10',
-      field: '»çÁø'
+      field: 'ì‚¬ì§„'
     },
     judgeResult: {
       result: 'unknown',
-      reasons: ['»ó¼¼ ¿î¿µ ½Ã°£ ¹× ÀÔÀå ¸¶°¨ Á¤º¸°¡ µî·ÏµÇÁö ¾ÊÀº ½Ã¼³ÀÔ´Ï´Ù. °ø½Ä À¥»çÀÌÆ®¸¦ È®ÀÎÇØ ÁÖ¼¼¿ä.']
+      reasons: ['ìƒì„¸ ìš´ì˜ ì‹œê°„ ë° ì…ì¥ ë§ˆê° ì •ë³´ê°€ ë“±ë¡ë˜ì§€ ì•Šì€ ì‹œì„¤ì…ë‹ˆë‹¤. ê³µì‹ ì›¹ì‚¬ì´íŠ¸ë¥¼ í™•ì¸í•´ ì£¼ì„¸ìš”.']
     }
   }
 ];
