@@ -4,8 +4,8 @@ export interface Venue {
   id: string;
   name: string;
   aliases: string[];
-  gu: 'Á¾·Î±¸' | 'Áß±¸';
-  type: '¹Ì¼ú°ü' | '¹Ú¹°°ü';
+  gu: 'ì¢…ë¡œêµ¬' | 'ì¤‘êµ¬';
+  type: 'ë¯¸ìˆ ê´€' | 'ë°•ë¬¼ê´€';
   lat: number;
   lng: number;
   representative: boolean;
