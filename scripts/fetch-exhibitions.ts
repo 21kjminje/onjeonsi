@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -30,12 +30,16 @@ interface RawSeoulEvent {
   STRTDATE: string;
   END_DATE: string;
   ORG_LINK: string;
+  LAT: string; // Latitude (위도)
+  LOT: string; // Longitude (경도)
 }
 
 async function fetchExhibitions() {
   console.log('📡 서울시 문화행사 API 호출 중...');
-  // 1페이지부터 200건 조회
-  const url = `http://openapi.seoul.go.kr:8088/${API_KEY}/json/culturalEventInfo/1/200/`;
+  // startIndex부터 endIndex까지 조회
+  const startIndex = 1;
+  const endIndex = 1000;
+  const url = `http://openapi.seoul.go.kr:8088/${API_KEY}/json/culturalEventInfo/${startIndex}/${endIndex}/`;
 
   try {
     const res = await fetch(url);
@@ -82,7 +86,10 @@ async function fetchExhibitions() {
         end,
         field: item.CODENAME || '전시/미술',
         placeName: item.PLACE.trim(),
-        link: item.ORG_LINK || ''
+        link: item.ORG_LINK || '',
+        lat: Number(item.LAT),
+        lng: Number(item.LOT),
+        fetchedAt: new Date().toISOString()
       };
     });
 
