@@ -30,6 +30,8 @@ interface RawSeoulEvent {
   STRTDATE: string;
   END_DATE: string;
   ORG_LINK: string;
+  LAT: string; // Latitude (위도)
+  LOT: string; // Longitude (경도)
 }
 
 async function fetchExhibitions() {
@@ -82,7 +84,10 @@ async function fetchExhibitions() {
         end,
         field: item.CODENAME || '전시/미술',
         placeName: item.PLACE.trim(),
-        link: item.ORG_LINK || ''
+        link: item.ORG_LINK || '',
+        lat: Number(item.LAT),
+        lng: Number(item.LOT),
+        fetchedAt: new Date().toISOString()
       };
     });
 

@@ -2,121 +2,144 @@
   {
     "id": "auto-seoul-1",
     "venueId": "",
+    "title": "2026 제11회 서화·공예 명장대전",
+    "start": "2026-12-16",
+    "end": "2026-12-21",
+    "field": "전시/미술",
+    "placeName": "한국미술관 3층",
+    "link": "https://www.kiroart.or.kr/",
+    "lat": null,
+    "lng": 126.987230558854,
+    "fetchedAt": "2026-11-08T04:58:47.516Z"
+  },
+  {
+    "id": "auto-seoul-2",
+    "venueId": "",
     "title": "파인캐릭터 2026 (FineCharacter 2026)",
     "start": "2026-11-27",
     "end": "2026-11-29",
     "field": "전시/미술",
     "placeName": "동대문디자인플라자(DDP) 쇼룸 1층 (서울 중구 을지로 281)",
-    "link": "https://finecharacter.kr/"
+    "link": "https://finecharacter.kr/",
+    "lat": 37.56735731522952,
+    "lng": 127.00977973484339,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
   },
   {
-    "id": "auto-seoul-2",
+    "id": "auto-seoul-3",
     "venueId": "",
     "title": "2026 서울국제예술포럼(SAFT)",
     "start": "2026-11-17",
     "end": "2026-11-17",
     "field": "기타",
     "placeName": "DDP 아트홀 2관",
-    "link": "https://event-us.kr/sfacfuture/event/137785"
+    "link": "https://event-us.kr/sfacfuture/event/137785",
+    "lat": 37.56735731522952,
+    "lng": 127.00977973484339,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
   },
   {
-    "id": "auto-seoul-3",
+    "id": "auto-seoul-4",
+    "venueId": "",
+    "title": "[주석모음집] 전시를 만드는 일에 대하여",
+    "start": "2026-11-06",
+    "end": "2026-11-27",
+    "field": "전시/미술",
+    "placeName": "화-일요일 13:00~19:00",
+    "link": "https://archivist.kr/exi?m=gov&i=1793653275",
+    "lat": 37.5772195722771,
+    "lng": 127.009089447244,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
+  },
+  {
+    "id": "auto-seoul-5",
+    "venueId": "",
+    "title": "서울 K-Culture 챌린지 페스티벌",
+    "start": "2026-11-05",
+    "end": "2026-11-05",
+    "field": "축제-문화/예술",
+    "placeName": "서울 DDP 잔디언덕",
+    "link": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=160115&menuNo=200010",
+    "lat": 37.56735731522952,
+    "lng": 127.00977973484339,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
+  },
+  {
+    "id": "auto-seoul-6",
     "venueId": "",
     "title": "[서울시립미술관 서소문본관] 《린 허쉬만 리슨: 나의 [나]들》 전시 연계 강연",
     "start": "2026-11-04",
     "end": "2026-12-04",
     "field": "교육/체험",
     "placeName": "서울시립미술관 서소문본관 지하1층 세마홀",
-    "link": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1600266"
+    "link": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1600266",
+    "lat": 37.5641060692766,
+    "lng": 126.973699316136,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
   },
   {
-    "id": "auto-seoul-4",
+    "id": "auto-seoul-7",
     "venueId": "",
     "title": "[서울공예박물관 어린이박물관] 《나무의 비밀》 - 소목장세미와 만나는 나무공예",
     "start": "2026-11-03",
     "end": "2027-09-19",
     "field": "전시/미술",
     "placeName": "교육동, 기타장소  3층 어린이박물관",
-    "link": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/199"
+    "link": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/199",
+    "lat": 37.5766481740232,
+    "lng": 126.983533363501,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
   },
   {
-    "id": "auto-seoul-5",
+    "id": "auto-seoul-8",
+    "venueId": "",
+    "title": "[교보아트스페이스] 동양화에 기운 Hearts Inclined to Ink",
+    "start": "2026-11-03",
+    "end": "2026-12-13",
+    "field": "전시/미술",
+    "placeName": "교보아트스페이스",
+    "link": "https://store.kyobobook.co.kr/culture/art-space/877",
+    "lat": 37.57098891966223,
+    "lng": 126.97791812044534,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
+  },
+  {
+    "id": "auto-seoul-9",
+    "venueId": "",
+    "title": "[남산골한옥마을] 2026 남산골 아트 프로젝트 〈겹, Layer-層〉 세 번째 선정 전시 《축적된 손, 木手》",
+    "start": "2026-11-03",
+    "end": "2026-11-22",
+    "field": "전시/미술",
+    "placeName": "남산골한옥마을 이승업 가옥",
+    "link": "https://www.hanokmaeul.co.kr/exhibition-now/?bmode=view&idx=175285690&back_url=Lw%3D%3D&t=board&page=",
+    "lat": 37.559304933707146,
+    "lng": 126.994440072131,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
+  },
+  {
+    "id": "auto-seoul-10",
     "venueId": "",
     "title": "[운현궁] 2026 기획전시 [운현궁, 뿌리展]",
     "start": "2026-11-03",
     "end": "2026-11-08",
     "field": "전시/미술",
     "placeName": "운현궁 기획전시실",
-    "link": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2017&group=basic&code=B35"
+    "link": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2017&group=basic&code=B35",
+    "lat": 37.57607864675475,
+    "lng": 126.98708335796199,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
   },
   {
-    "id": "auto-seoul-6",
+    "id": "auto-seoul-11",
     "venueId": "",
     "title": "SAD BOOK ― 다시 쓰기: 몸으로서의 도시",
     "start": "2026-11-02",
     "end": "2026-11-08",
     "field": "전시/미술",
     "placeName": "예술가의 집 전관, 마로니에공원, 낙산공원",
-    "link": "https://www.artinsight.co.kr/news/view2.php?no=82760"
-  },
-  {
-    "id": "auto-seoul-7",
-    "venueId": "",
-    "title": "유별남 사진전 [兪  ;  그러하다]",
-    "start": "2026-10-30",
-    "end": "2026-11-12",
-    "field": "전시/미술",
-    "placeName": "와이아트 갤러리",
-    "link": "https://blog.naver.com/gu5658/224450449586"
-  },
-  {
-    "id": "auto-seoul-8",
-    "venueId": "",
-    "title": "[서울역사박물관]  제6회 서울역사박물관 배리어프리영화관 [화이트 버드]",
-    "start": "2026-10-29",
-    "end": "2026-10-29",
-    "field": "영화",
-    "placeName": "서울역사박물관 1층 야주개홀(강당)",
-    "link": "https://museum.seoul.go.kr/www/board/NR_boardView.do?bbsCd=1018&seq=20261013163438168&sso=ok"
-  },
-  {
-    "id": "auto-seoul-9",
-    "venueId": "",
-    "title": "[서울역사박물관] 2026 딜쿠샤 주변 직장인 대상 점심시간 프로그램 [가을, 커피, 딜쿠샤 인사이드]",
-    "start": "2026-10-28",
-    "end": "2026-11-27",
-    "field": "교육/체험",
-    "placeName": "서울역사박물관 딜쿠샤",
-    "link": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261007133847859076"
-  },
-  {
-    "id": "auto-seoul-10",
-    "venueId": "",
-    "title": "[미림아트갤러리] 채운 회원전 《우리가 사랑한 시간 : THE TIME WE LOVED》",
-    "start": "2026-10-28",
-    "end": "2026-11-02",
-    "field": "전시/미술",
-    "placeName": "미림아트갤러리 (종로구 인사동길 11-1 미림아트 3F)",
-    "link": "https://www.instagram.com/p/De84e-rzOXh/"
-  },
-  {
-    "id": "auto-seoul-11",
-    "venueId": "",
-    "title": "2026 더아트프라자: 팔레트립 by IBK",
-    "start": "2026-10-28",
-    "end": "2026-11-01",
-    "field": "전시/미술",
-    "placeName": "IBK 기업은행 본점 및 파이낸스타워 로비, IBK 선큰가든 등",
-    "link": "https://theartplaza.kr/"
-  },
-  {
-    "id": "auto-seoul-12",
-    "venueId": "",
-    "title": "[서울공예박물관] 2026 신당창작아케이드 기획전시 《각각의 각》",
-    "start": "2026-10-27",
-    "end": "2026-11-15",
-    "field": "전시/미술",
-    "placeName": "서울공예박물관 전시1동  1층",
-    "link": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/198"
+    "link": "https://www.artinsight.co.kr/news/view2.php?no=82760",
+    "lat": 37.5805022887696,
+    "lng": 127.003256182632,
+    "fetchedAt": "2026-11-08T04:58:47.517Z"
   }
 ]
