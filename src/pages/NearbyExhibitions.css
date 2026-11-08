@@ -1,0 +1,208 @@
+.layout {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 340px;
+  overflow-y: auto;
+  border-right: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.map {
+  flex: 1;
+}
+
+.filter {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.filter h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.radius {
+  display: flex;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.radius button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.radius button.on {
+  border-color: #333;
+  background: #333;
+  color: #fff;
+}
+
+.count {
+  margin: 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.item {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.item h2 {
+  margin: 8px 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.badge.possible {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.badge.impossible {
+  background: #fdecea;
+  color: #c62828;
+}
+
+.badge.unknown {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.dist {
+  font-size: 12px;
+  color: #999;
+}
+
+.venue {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.place {
+  display: flex;
+  gap: 6px;
+  margin: 10px 0 6px;
+}
+
+.place button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.hint {
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+}
+
+.empty {
+  padding: 24px 16px;
+  font-size: 13px;
+  color: #777;
+}
+
+.reason {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.center-dot {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #d9480f;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.info-box {
+  width: 250px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.info-box strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.info-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 5px;
+}
+
+.info-row .badge {
+  flex-shrink: 0;
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #fff;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.pin span {
+  transform: rotate(45deg);
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.pin.possible {
+  background: #1e7e34;
+}
+
+.pin.impossible {
+  background: #c62828;
+}
+
+.pin.unknown {
+  background: #8a8a8a;
+}
