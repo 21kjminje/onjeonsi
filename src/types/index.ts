@@ -27,11 +27,11 @@ export interface Exhibition {
   start: string;
   end: string;
   field?: string;
-  placeName: string;
+  placeName?: string;
   link?: string;
   lat?: number;
   lng?: number;
-  fetchedAt: string;
+  fetchedAt?: string;
 }
 
 export interface JudgeInput {
