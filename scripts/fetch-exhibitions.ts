@@ -36,8 +36,10 @@ interface RawSeoulEvent {
 
 async function fetchExhibitions() {
   console.log('📡 서울시 문화행사 API 호출 중...');
-  // 1페이지부터 200건 조회
-  const url = `http://openapi.seoul.go.kr:8088/${API_KEY}/json/culturalEventInfo/1/200/`;
+  // startIndex부터 endIndex까지 조회
+  const startIndex = 1;
+  const endIndex = 1000;
+  const url = `http://openapi.seoul.go.kr:8088/${API_KEY}/json/culturalEventInfo/${startIndex}/${endIndex}/`;
 
   try {
     const res = await fetch(url);
