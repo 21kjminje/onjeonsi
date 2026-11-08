@@ -1,4 +1,4 @@
-import { Venue, Exhibition, JudgeResult } from '../types';
+import type { Venue, Exhibition, JudgeResult } from '../types';
 
 export interface MockItem {
   venue: Venue;
