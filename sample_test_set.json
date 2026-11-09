@@ -1,0 +1,34 @@
+[
+  {
+    "description": "Case 1: 성공 케이스 (정상 운영 중)",
+    "exhibition": {
+      "id": "test-01",
+      "venueId": "venue-01",
+      "start": "2026-11-09",
+      "end": "2026-11-10",
+      "avgStayTime": 60
+    },
+    "venue": {
+      "venueId": "venue-01",
+      "operatingHours": { "mon": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" } },
+      "regularHolidays": ["sunday"]
+    },
+    "expected_result": "가능"
+  },
+  {
+    "description": "Case 2: 휴관 케이스 (월요일 휴관 시설)",
+    "exhibition": {
+      "id": "test-02",
+      "venueId": "venue-02",
+      "start": "2026-11-09",
+      "end": "2026-11-10",
+      "avgStayTime": 60
+    },
+    "venue": {
+      "venueId": "venue-02",
+      "operatingHours": { "mon": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" } },
+      "regularHolidays": ["monday"]
+    },
+    "expected_result": "불가 (정기 휴관)"
+  }
+]
