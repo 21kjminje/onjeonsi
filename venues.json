@@ -1,0 +1,98 @@
+[
+  {
+    "venueId": "venue-sema",
+    "name": "서울시립미술관(SeMA)",
+    "address": "서울시 중구 덕수궁길 61",
+    "operatingHours": {
+      "mon": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "tue": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "wed": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "thu": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "fri": { "open": "10:00", "close": "21:00", "lastEntry": "20:00" },
+      "sat": { "open": "10:00", "close": "19:00", "lastEntry": "18:00" },
+      "sun": { "open": "10:00", "close": "19:00", "lastEntry": "18:00" }
+    },
+    "regularHolidays": ["monday"],
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "venueId": "venue-korean-art-museum",
+    "name": "한국미술관",
+    "address": "서울시 종로구 인사동 43",
+    "operatingHours": {
+      "mon": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "tue": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "wed": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "thu": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "fri": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "sat": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "sun": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" }
+    },
+    "regularHolidays": ["연중무휴"],
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "venueId": "venue-nmk",
+    "name": "국립중앙박물관",
+    "address": "서울 용산구 서빙고로 137",
+    "operatingHours": {
+      "mon": { "open": "09:30", "close": "17:30", "lastEntry": "16:30" },
+      "tue": { "open": "09:30", "close": "17:30", "lastEntry": "16:30" },
+      "wed": { "open": "09:30", "close": "21:00", "lastEntry": "20:00" },
+      "thu": { "open": "09:30", "close": "17:30", "lastEntry": "16:30" },
+      "fri": { "open": "09:30", "close": "17:30", "lastEntry": "16:30" },
+      "sat": { "open": "09:30", "close": "21:00", "lastEntry": "20:00" },
+      "sun": { "open": "09:30", "close": "17:30", "lastEntry": "16:30" }
+    },
+    "regularHolidays": ["1월 1일", "설날 당일", "추석 당일"],
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "venueId": "venue-mmca",
+    "name": "국립현대미술관 서울관",
+    "address": "서울 종로구 삼청로 30",
+    "operatingHours": {
+      "mon": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "tue": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "wed": { "open": "10:00", "close": "21:00", "lastEntry": "20:00" },
+      "thu": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "fri": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" },
+      "sat": { "open": "10:00", "close": "21:00", "lastEntry": "20:00" },
+      "sun": { "open": "10:00", "close": "18:00", "lastEntry": "17:00" }
+    },
+    "regularHolidays": ["1월 1일", "설날 당일", "추석 당일"],
+    "lastUpdated": "2026-11-09"
+  },
+  {
+    "venueId": "venue-seoul-craft",
+    "name": "서울공예박물관",
+    "address":"서울 종로구 율곡로3길 4",
+    "operatingHours": {
+      "mon": { "open": "10:00", "close": "18:00", "lastEntry": "17:30" },
+      "tue": { "open": "10:00", "close": "18:00", "lastEntry": "17:30" },
+      "wed": { "open": "10:00", "close": "18:00", "lastEntry": "17:30" },
+      "thu": { "open": "10:00", "close": "18:00", "lastEntry": "17:30" },
+      "fri": { "open": "10:00", "close": "21:00", "lastEntry": "20:30" },
+      "sat": { "open": "10:00", "close": "18:00", "lastEntry": "17:30" },
+      "sun": { "open": "10:00", "close": "18:00", "lastEntry": "17:30" }
+    },
+    "regularHolidays": ["monday"],
+    "lastUpdated": "2026-11-09"
+  }
+    {
+    "venueId": "venue-seoul-history-museum",
+    "name": "서울역사박물관",
+    "address": "서울시 종로구 새문안로 55", 
+    "operatingHours": {
+      "mon": { "open": "09:00", "close": "18:00", "lastEntry": "17:00" },
+      "tue": { "open": "09:00", "close": "21:00", "lastEntry": "20:30" },
+      "wed": { "open": "09:00", "close": "18:00", "lastEntry": "17:00" },
+      "thu": { "open": "09:00", "close": "21:00", "lastEntry": "20:30" },
+      "fri": { "open": "09:00", "close": "18:00", "lastEntry": "17:00" },
+      "sat": { "open": "09:00", "close": "21:00", "lastEntry": "20:30" },
+      "sun": { "open": "09:00", "close": "18:00", "lastEntry": "17:00" }
+    },
+    "regularHolidays": ["monday"],
+    "lastUpdated": "2026-11-09"
+  }
+]
