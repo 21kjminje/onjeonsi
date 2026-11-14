@@ -1,0 +1,28 @@
+{
+  "id": "venue-mmca",
+  "name": "국립현대미술관 서울",
+  "aliases": [
+    "국립현대미술관",
+    "MMCA"
+  ],
+  "gu": "종로구",
+  "type": "미술관",
+  "lat": 37.5745,
+  "lng": 126.9778,
+  "representative": true,
+  "hours": {
+    "mon": { "open": "10:00", "close": "18:00" },
+    "tue": { "open": "10:00", "close": "18:00" },
+    "thu": { "open": "10:00", "close": "18:00" },
+    "fri": { "open": "10:00", "close": "18:00" },
+    "sat": { "open": "10:00", "close": "21:00" },
+    "sun": { "open": "10:00", "close": "18:00" }
+  },
+  "closed": {
+    "weekday": "wed"
+  },
+  "lastEntry": "20:00",
+  "visitMinutes": 90,
+  "source": "국립현대미술관 공식 홈페이지",
+  "verified": "2026-11-09"
+}

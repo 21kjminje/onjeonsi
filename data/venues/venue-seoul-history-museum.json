@@ -1,0 +1,28 @@
+{
+  "id": "venue-seoul-history-museum",
+  "name": "서울역사박물관",
+  "aliases": [
+    "서울역사박물관"
+  ],
+  "gu": "종로구",
+  "type": "박물관",
+  "lat": 37.5741,
+  "lng": 126.9778,
+  "representative": false,
+  "hours": {
+    "mon": { "open": "09:00", "close": "18:00" },
+    "tue": { "open": "09:00", "close": "21:00" },
+    "wed": { "open": "09:00", "close": "18:00" },
+    "thu": { "open": "09:00", "close": "21:00" },
+    "fri": { "open": "09:00", "close": "18:00" },
+    "sat": { "open": "09:00", "close": "21:00" },
+    "sun": { "open": "09:00", "close": "18:00" }
+  },
+  "closed": {
+    "weekday": "mon"
+  },
+  "lastEntry": "20:30",
+  "visitMinutes": 90,
+  "source": "서울시 운영정보",
+  "verified": "2026-11-09"
+}

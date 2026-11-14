@@ -1,0 +1,27 @@
+{
+  "id": "venue-korean-art-museum",
+  "name": "한국미술관",
+  "aliases": [
+    "한국미술관"
+  ],
+  "gu": "종로구",
+  "type": "미술관",
+  "lat": 37.5755,
+  "lng": 126.9785,
+  "representative": false,
+  "hours": {
+    "tue": { "open": "10:00", "close": "18:00" },
+    "wed": { "open": "10:00", "close": "18:00" },
+    "thu": { "open": "10:00", "close": "18:00" },
+    "fri": { "open": "10:00", "close": "18:00" },
+    "sat": { "open": "10:00", "close": "18:00" },
+    "sun": { "open": "10:00", "close": "18:00" }
+  },
+  "closed": {
+    "weekday": "mon"
+  },
+  "lastEntry": "17:00",
+  "visitMinutes": 90,
+  "source": "서울시 운영정보",
+  "verified": "2026-11-09"
+}
