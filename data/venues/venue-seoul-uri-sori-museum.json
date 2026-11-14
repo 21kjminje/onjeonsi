@@ -1,0 +1,27 @@
+{
+  "id": "venue-seoul-uri-sori-museum",
+  "name": "서울우리소리박물관",
+  "aliases": [
+    "서울우리소리박물관"
+  ],
+  "gu": "종로구",
+  "type": "박물관",
+  "lat": 37.5785,
+  "lng": 126.9822,
+  "representative": false,
+  "hours": {
+    "tue": { "open": "09:00", "close": "18:00" },
+    "wed": { "open": "09:00", "close": "18:00" },
+    "thu": { "open": "09:00", "close": "18:00" },
+    "fri": { "open": "09:00", "close": "18:00" },
+    "sat": { "open": "09:00", "close": "18:00" },
+    "sun": { "open": "09:00", "close": "18:00" }
+  },
+  "closed": {
+    "weekday": "mon"
+  },
+  "lastEntry": "17:30",
+  "visitMinutes": 90,
+  "source": "박물관 공식 운영정보",
+  "verified": "2026-11-09"
+}
